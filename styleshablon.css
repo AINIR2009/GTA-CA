@@ -163,7 +163,7 @@ height: auto;
     background-color: #000;
 } 
 
-#menu1 ul:hover> ul{ 
+#menu1 ul li:hover> ul{ 
     display: block;
 } 
 #menu1 ul li ul li{
@@ -176,7 +176,7 @@ height: auto;
     color: #fff;
     border: solid 1px #ffffff;
 }
-#menu1 ul li ul li a{ 
+#menu1 ul li :hover a{ 
     background-color: #4b007e;
     color: rgb(255, 255, 255);
     border: #0dff00;
